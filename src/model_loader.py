@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 from llama_index.llms.groq import Groq
 from src.config import (
     LLM_MODEL,
-    # LLM_MAX_NEW_TOKENS,
-    # LLM_TEMPERATURE,
-    # LLM_TOP_P,
-    # LLM_REPETITION_PENALTY
+    LLM_MAX_NEW_TOKENS,
+    LLM_TEMPERATURE,
+    LLM_TOP_P,
+    LLM_REPETITION_PENALTY
 )
 
 
@@ -30,7 +30,7 @@ def initialise_llm() -> Groq:
         model=LLM_MODEL,
         # The following parameters are optional
         # and will default to the model's defaults if not set
-        # max_tokens=LLM_MAX_NEW_TOKENS,
-        # temperature=LLM_TEMPERATURE,
+        max_tokens=LLM_MAX_NEW_TOKENS,
+        temperature=LLM_TEMPERATURE,
         # top_p=LLM_TOP_P,
     )
