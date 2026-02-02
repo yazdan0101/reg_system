@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / databases
+*.log
+logs/
+*.sqlite3
+*.db
+*.sqlite
+
+# Test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if present)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Large ML / RAG artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.ckpt
+embeddings/
+vectorstores/
+runs/
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+credentials.json
+secrets.yml
